@@ -23,4 +23,6 @@ $$ LANGUAGE SQL;
 
 SELECT biggest_order();
 
-------
+------ this only returns one item, the amount of the biggest order
+------ IRL, you'd obviously want to know what was ordered, who was the customer, etc.
+
